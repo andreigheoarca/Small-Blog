@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Karu Black";
+  src: url("./assets/Karu-Black.woff");
+}
+@font-face {
+  font-family: "Karu Bold";
+  src: url("./assets/Karu-Bold.woff");
+}
+@font-face {
+  font-family: "Karu Regular";
+  src: url("./assets/Karu-Regular.woff");
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  background: #2d68f6;
+  width: 100vw;
+  padding: 0.5rem;
+}
+
+.navbar ul {
+  display: flex;
+  position: relative;
+  left: 16rem;
+  list-style: none;
+}
+
+.navbar ul li {
+  font-family: "Karu Bold";
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  letter-spacing: 0.08rem;
+  color: #ffffff;
+}
