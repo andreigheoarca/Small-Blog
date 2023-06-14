@@ -1,9 +1,8 @@
 import "./App.css";
-import data from "./data.js";
 import Blog from "./Blog.js";
 
 function App() {
-  console.log(data);
+  // console.log(data);
   return (
     <main>
       <nav className="navbar">
