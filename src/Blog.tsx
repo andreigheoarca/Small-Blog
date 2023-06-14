@@ -16,6 +16,10 @@ const Blog = () => {
           return (
             <div className="card" key={item.id}>
               <img src={item.img} alt={`image number: ${item.id}`} />
+              <div className="info">
+                <h2>{item.title}</h2>
+                <h4>{item.contentCreator}</h4>
+              </div>
             </div>
           );
         })}

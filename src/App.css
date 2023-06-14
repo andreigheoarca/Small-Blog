@@ -45,5 +45,35 @@ body {
 
 .container {
   height: 100vh;
-  width: 100vw;
+  background: #f8f9fa;
+}
+
+.blog {
+  display: flex;
+  align-content: center;
+  width: 75vw;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 2rem;
+  padding: 0.8rem;
+}
+
+.card img {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.info {
+  padding-left: 1rem;
+}
+
+.card h2 {
+  font-family: "Karu Bold";
+}
+.card h4 {
+  font-family: "Karu Regular";
 }
